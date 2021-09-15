@@ -29,4 +29,5 @@ app.get('*', (req, res) => {
 
 app.listen(process.env.PORT, () => {
     console.log(`El servidor express esta corriendo en el puerto ${process.env.PORT}`)
+    console.log('Hola buenos dias');
 })
